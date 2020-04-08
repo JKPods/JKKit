@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'JKKit_Example' do
+  pod 'JKKit', :path => '../'
+
+  target 'JKKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
